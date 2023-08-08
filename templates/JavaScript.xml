@@ -1,0 +1,15 @@
+<templateSet group="JavaScript">
+  <template name="fc" value="const $name$ControlName = '$name$';&#10;[$name$ControlName]: [null, []],&#10;get $name$Control(): FormControl {&#10;    return this.form.get($name$ControlName) as FormControl;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ee" value="$bigName$ = '$name$'," description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="bigName" expression="capitalizeAndUnderscore(name)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
