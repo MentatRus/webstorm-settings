@@ -15,7 +15,8 @@
   </action>
   <action id="Images.Thumbnails.Hide" />
   <action id="ParameterInfo" />
-  <action id="RearrangeCode">
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="shift meta alt p" />
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
 </keymap>
