@@ -5,8 +5,8 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="*.html" />
     <mask>*</mask>
-    <mask>*.less</mask>
     <mask>*.ts</mask>
+    <mask>*.less</mask>
     <mask>*.html</mask>
   </component>
 </application>
