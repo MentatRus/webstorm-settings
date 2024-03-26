@@ -1,6 +1,7 @@
 <templateSet group="JavaScript">
-  <template name="fc" value="const $name$ControlName = '$name$';&#10;[$name$ControlName]: [null, []],&#10;get $name$Control(): FormControl {&#10;    return this.form.get($name$ControlName) as FormControl;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="fc" value="const $name$ControlName = '$name$';&#10;[$name$ControlName]: new FormControl&lt;$type$ | null&gt;(null),&#10;get $name$Control(): FormControl&lt;$type$ | null&gt; {&#10;    return this.form.controls[$name$ControlName];&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
