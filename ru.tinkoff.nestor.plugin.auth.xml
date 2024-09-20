@@ -1,0 +1,11 @@
+<application>
+  <component name="Auth">
+    <option name="nestorToken">
+      <PersistentToken>
+        <option name="expireAt" value="2026-09-20T12:15:17.598559896Z" />
+        <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODk5MDY1MTcsImlhdCI6MTcyNjgzNDUxNywiaWQiOiJmZjk0MGRjNi03NzQ5LTExZWYtOWUwOC00ZWQ4OWU0YWE2NTgiLCJpc3MiOiJuZXN0b3ItYmFja2VuZCIsInByZWZlcnJlZF91c2VybmFtZSI6Im4uZG9sZ29wb2xvdiIsInN1YiI6ImNkMWNjNjljLWEyZjctNDVlMy05ODg5LTUyMDk1ZTgyMGE1OSJ9.pw9CtVACPBk0ycmeaVcI8M8dhY5ZCeZePO2KTKazkKg" />
+        <option name="username" value="n.dolgopolov" />
+      </PersistentToken>
+    </option>
+  </component>
+</application>
